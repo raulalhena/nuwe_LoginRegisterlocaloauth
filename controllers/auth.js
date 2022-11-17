@@ -1,5 +1,5 @@
-import User from "../../controllers/User.js";
-import { comparePasswords } from "../../utils/crypt.js";
+import User from "./User.js";
+import { comparePasswords } from "../utils/crypt.js";
 
 const user = new User();
 

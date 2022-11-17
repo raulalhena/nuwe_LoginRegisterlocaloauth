@@ -1,6 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
-import { authorizingLogin } from "./auth.js";
+import { authorizingLogin } from "../../controllers/auth.js";
 
 const routerLogin = express.Router();
 dotenv.config();
@@ -9,13 +9,13 @@ dotenv.config();
  *  Middlewares
  */
 
-routerLogin.get("/", async (req, res) => {
+routerLogin.get("/", (req, res) => {
     res.json({
         message: "Formulario login"
     });
 });
 
-routerLogin.post("/", authorizingLogin, async (req, res) => {
+routerLogin.post("/", authorizingLogin, (req, res) => {
     res.redirect("/");
 });
 

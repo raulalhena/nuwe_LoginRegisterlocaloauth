@@ -1,5 +1,5 @@
 import express from "express";
-import { isAuthorized } from "./api/auth.js";
+import { isAuthorized } from "../controllers/auth.js";
 import routerLogin from "./api/login.js";
 import routerRegister from "./api/register.js";
 import cookieParser from "cookie-parser";
