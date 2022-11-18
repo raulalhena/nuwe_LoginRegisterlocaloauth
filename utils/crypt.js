@@ -1,10 +1,10 @@
 import bcrypt from "bcrypt";
 
 /**
- * 
+ * Encription the password from the user
  * @param {*} password 
  * @param {*} saltRounds 
- * @returns 
+ * @returns hashed password
  */
 
 const hashingPassword = async (password, saltRounds = 10) => {
@@ -19,6 +19,10 @@ const hashingPassword = async (password, saltRounds = 10) => {
     }
 
 }
+
+/**
+ * Compare the password from user with the password stored in DB
+ */
 
 const comparePasswords = async (password, hash) => {
    

@@ -14,7 +14,7 @@ dotenv.config();
  */
 
 /**
- * GET Login route: "rendergin" Login Form
+ * GET Login route: "rendering" Login Form
  */
 
 routerLogin.get("/", (req, res) => {
@@ -24,7 +24,7 @@ routerLogin.get("/", (req, res) => {
 });
 
 /**
- * POST Login route: "rendergin" Login Form
+ * POST Login route: authenthication process and redirect to protected area
  */
 
 routerLogin.post("/", authorizingLogin, (req, res) => {

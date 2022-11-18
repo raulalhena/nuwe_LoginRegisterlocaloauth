@@ -8,7 +8,7 @@ import createUser from "../../controllers/userManager.js";
 const routerRegister = express.Router();
 
 /**
- * GET Register route: "rendergin" Register Form
+ * GET Register route: "rendering" Register Form
  */
 
 routerRegister.get("/", (req, res) => {
