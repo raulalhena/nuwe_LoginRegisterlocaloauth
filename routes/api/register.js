@@ -13,16 +13,16 @@ const routerRegister = express.Router();
 
 routerRegister.get("/", (req, res) => {
    res.json({
-        message: "Formulario login"
+        message: "Formulario registro"
     });
-})
+});
 
 /**
  * POST Register route: create new User
  */
 
 routerRegister.post("/", createUser, async (req, res) => {
-    res.redirect("/");
+    res.redirect("/login");
 });
 
 export default routerRegister;

@@ -26,8 +26,6 @@ const createUser = async (req, res, next) => {
     }
 
     if(newUser) {
-        req.session.logged = true;
-        req.session.username = newUser.name;
         next();
      }else{
          res.status(400).redirect("/register");
