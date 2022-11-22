@@ -10,7 +10,7 @@ Proyecto de Backend creado para reto de Nuwe, creación de un sistema de registr
 
 Para usarlo, es necesario realizar consultas a los endpoints descritos en la sección API para realizar la acción deseada a través del verbo HTTP: GET y POST.
 
-Se pone a la escucha el servidor Express, por defecto en el puerto 5000, para la exposición de los endpoints de **/login**, **/register** y la ruta principal protegida **/**. Se ha usado el **ORM Prisma** junto a **MySQL** para la persistencia de datos.
+Se pone a la escucha el servidor Express, por defecto en el puerto 5000, para la exposición de los endpoints de **'/login'**, **'/register'** y la ruta principal protegida **'/'**. Se ha usado el **ORM Prisma** junto a **MySQL** para la persistencia de datos.
 
 Encontrarás el uso de **_importación de módulos de ES6_**, configurado en el package.json. Se ha realizado con JS funcional y creación de clases para los controladores de datos. El trabajo asíncrono se ha implementado con el uso de **_async/await_** para simplificar y conseguir una mayor legibilidad del código.
 
@@ -152,7 +152,7 @@ Los enlaces a la documentación puede estar desfasada, revisar ultima versión o
 
 ## Contact info
 
-Contactame a mi email: raul.alhena@gmail.com
+Contactame a mi email: **raul.alhena@gmail.com**
 
 ## License
 
