@@ -163,6 +163,10 @@ Los enlaces a la documentación puede estar desfasada, revisar ultima versión o
 3. Prisma [DOCS](https://www.prisma.io/docs)
 4. MySQL [DOCS](https://dev.mysql.com/doc/)
 
+## Badges
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=raulalhena_nuwe_LoginRegisterlocaloauth&metric=alert_status)](https://sonarcloud.io/project/overview?id=raulalhena_nuwe_LoginRegisterlocaloauth)
+
 ## Contact info
 
 Contactame a mi email: **raul.alhena@gmail.com**
