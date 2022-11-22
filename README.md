@@ -124,11 +124,11 @@ COOKIE_SECRET= [FRASE SECRETA PARA LA ENCRIPTACION DE LA COOKIE DE LA SESION]
 SESSION_SECRET= [FRASE SECRETA PARA LA CREACION DE LA SESION DE EXPRESS]
 
 ```
-### \# Importación tabla una vez creada la BBDD en MariaDB
+### \# Importación tabla _'user'_ una vez creada la BBDD en MariaDB
 
 ```shell
 
-mysql -u USUARIO_MYSQL -p NOMBRE_BBDD < ./sql/jump2_v1.sql
+mysql -u USUARIO_MYSQL -p NOMBRE_BBDD < ./sql/loginregisterlocaloauth_table_v1.sql
 
 ```
 
