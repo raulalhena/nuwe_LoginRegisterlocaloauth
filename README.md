@@ -21,6 +21,19 @@ Descripción de las rutas expuestas.
 ### Endpoint: '/'
 
 - **GET** - Ruta protegida por sistema de login, muestra mensaje: _"Login & Register Server"_.
+  - Recibe:
+    - Parametros:
+  - Devuelve:
+    - Error: Redirecciona a **'/login'**.
+    - Éxito: JSON
+
+```JSON
+
+    {
+        "message": "Login & Register Server"
+    }
+
+```
 
 ### Endpoint: /login
 
